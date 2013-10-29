@@ -1,0 +1,8 @@
+* test to see if it changed
+* if so, run it through the checks to see  if it has the postscript
+
+xml.ensure_node_exists do
+  note do
+    postscript "Love you!"
+  end
+end
